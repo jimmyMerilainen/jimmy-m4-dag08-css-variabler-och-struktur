@@ -1,0 +1,14 @@
+:root {
+  --header-color: #5b3a29;
+  --footer-color: #2b1c14;
+  --background-color: #fffaf3;
+  --white-color: #ffffff;
+  --button-background-color: #8c1010;
+  --button-hover-color: #5e0a0a;
+
+  --fs-base: 1rem;
+  --font-body: Arial, sans-serif;
+
+  --space-1: 8px;
+  --space-2: 16px;
+}
