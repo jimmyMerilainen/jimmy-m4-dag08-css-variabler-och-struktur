@@ -1,7 +1,7 @@
 /* component.css - knapp, kort, formulär */
 article {
   background-color: var(--white-color);
-  border: 1px solid #e3d5c3;
+  border: 1px solid var(--border-color);
   border-radius: var(--space-1);
   padding: var(--space-2);
   margin-bottom: var(--space-2);
@@ -26,15 +26,15 @@ article img,
 
 .pris {
   font-weight: 700;
-  color: #8c1010;
+  color: var(--button-background-color);
 }
 
 .knapp:hover {
-  background-color: #6f0c0c;
+  background-color: var(--button-hover-color);
 }
 
 #hero {
-  background-color: #f3e3cf;
+  background-color: var(--hero-background-color);
   padding: var(--space-4) var(--space-3);
   border-radius: var(--space-1);
 }
@@ -76,7 +76,7 @@ textarea {
 }
 
 fieldset {
-  border: 1px solid #e3d5c3;
+  border: 1px solid var(--border-color);
   border-radius: var(--space-1);
   margin: 0 0 var(--space-2);
   padding: 12px var(--space-2);

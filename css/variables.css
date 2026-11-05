@@ -4,8 +4,14 @@
   --footer-color: #2b1c14;
   --background-color: #fffaf3;
   --white-color: #ffffff;
+  --dark-text-color: #222222;
+  --heading-color: #3b2418;
   --button-background-color: #8c1010;
-  --button-hover-color: #5e0a0a;
+  --button-hover-color: #6f0c0c;
+  --link-hover-color: #5e0a0a;
+  --focus-color: #1a73e8;
+  --border-color: #e3d5c3;
+  --hero-background-color: #f3e3cf;
 
   --fs-base: 1rem;
   --font-heading: Georgia, "Times New Roman", serif;

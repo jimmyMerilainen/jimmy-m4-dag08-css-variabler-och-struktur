@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: var(--font-body);
-  color: #222222;
+  color: var(--dark-text-color);
   background-color: var(--background-color);
   font-size: var(--fs-base);
   line-height: 1.6;
@@ -19,7 +19,7 @@ h2,
 h3 {
   font-family: var(--font-heading);
   line-height: 1.2;
-  color: #3b2418;
+  color: var(--heading-color);
 }
 
 h2 {
@@ -33,12 +33,12 @@ h3 {
 }
 
 a {
-  color: #8c1010;
+  color: var(--button-background-color);
   text-underline-offset: 3px;
 }
 
 a:hover {
-  color: var(--button-hover-color);
+  color: var(--link-hover-color);
 }
 
 a:focus-visible,
@@ -46,7 +46,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid #1a73e8;
+  outline: 3px solid var(--focus-color);
   outline-offset: 2px;
 }
 
