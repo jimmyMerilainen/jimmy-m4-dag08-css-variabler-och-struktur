@@ -1,3 +1,4 @@
+/* layout.css - header, main, grid, footer, media queries */
 header {
   background-color: var(--header-color);
   color: var(--white-color);

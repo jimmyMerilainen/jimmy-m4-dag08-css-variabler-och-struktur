@@ -1,3 +1,4 @@
+/* base.css - reset, body, rubriker, länkar */
 *,
 *::before,
 *::after {
@@ -16,7 +17,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   line-height: 1.2;
   color: #3b2418;
 }
