@@ -9,12 +9,12 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #222222;
-  background-color: #fffaf3;
+  background-color: var(--background-color);
 }
 
 header {
-  background-color: #5b3a29;
-  color: #ffffff;
+  background-color: var(--header-color);
+  color: var(--white-color);
   padding: 16px 24px;
 }
 
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 main {
@@ -43,7 +43,7 @@ section {
 }
 
 article {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   border: 1px solid #e3d5c3;
   border-radius: 8px;
   padding: 16px;
@@ -59,8 +59,8 @@ article img,
 
 .knapp {
   display: inline-block;
-  background-color: #8c1010;
-  color: #ffffff;
+  background-color: var(--button-background-color);
+  color: var(--white-color);
   padding: 12px 20px;
   border: 0;
   border-radius: 6px;
@@ -68,13 +68,13 @@ article img,
 }
 
 footer {
-  background-color: #2b1c14;
-  color: #ffffff;
+  background-color: var(--footer-color);
+  color: var(--white-color);
   padding: 24px;
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 address {
@@ -83,7 +83,12 @@ address {
 
 /* ===== Dag 4: typografi och färg ===== */
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -97,7 +102,7 @@ h3 {
 }
 
 header h1 {
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 1.75rem;
 }
 
@@ -122,7 +127,7 @@ a {
 }
 
 a:hover {
-  color: #5e0a0a;
+  color: var(--button-hover-color);
 }
 
 nav a {
