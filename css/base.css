@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: #222222;
+  background-color: var(--background-color);
+  font-size: var(--fs-base);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+  color: #3b2418;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0 0 var(--space-2);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 12px 0 var(--space-1);
+}
+
+a {
+  color: #8c1010;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--button-hover-color);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+address {
+  font-style: normal;
+}

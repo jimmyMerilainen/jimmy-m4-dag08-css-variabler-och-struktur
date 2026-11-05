@@ -1,0 +1,96 @@
+article {
+  background-color: var(--white-color);
+  border: 1px solid #e3d5c3;
+  border-radius: var(--space-1);
+  padding: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+article img,
+#om-oss img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.knapp {
+  display: inline-block;
+  background-color: var(--button-background-color);
+  color: var(--white-color);
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.pris {
+  font-weight: 700;
+  color: #8c1010;
+}
+
+.knapp:hover {
+  background-color: #6f0c0c;
+}
+
+#hero {
+  background-color: #f3e3cf;
+  padding: var(--space-4) var(--space-3);
+  border-radius: var(--space-1);
+}
+
+#hero p {
+  font-size: 1.125rem;
+  max-width: 60ch;
+}
+
+.falt,
+.val {
+  margin-bottom: var(--space-2);
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.val label {
+  display: inline;
+  font-weight: 400;
+  margin-left: var(--space-1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  max-width: 28rem;
+  padding: 10px 12px;
+  border: 2px solid #8a7a6a;
+  border-radius: 6px;
+  font: inherit;
+}
+
+fieldset {
+  border: 1px solid #e3d5c3;
+  border-radius: var(--space-1);
+  margin: 0 0 var(--space-2);
+  padding: 12px var(--space-2);
+}
+
+legend {
+  font-weight: 700;
+  padding: 0 var(--space-1);
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article .pris {
+  margin-top: auto;
+}
